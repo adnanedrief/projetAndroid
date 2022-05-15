@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.ListProfessorsActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="411dp"
+        android:layout_height="43dp"
+        android:layout_marginVertical="16dp"
+        android:gravity="center_horizontal"
+        android:text="Liste des professeurs"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="416dp"
+        android:layout_height="658dp"
+        android:layout_marginVertical="30dp"
+        android:clickable="true"
+        android:textAlignment="center"
+        app:flow_verticalAlign="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="43dp">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:layout_marginVertical="16dp"
+        android:gravity="center_horizontal"
+        android:text="Clicker sur l'utilisateur pour voir les details de contact"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ListView1"
+        tools:layout_editor_absoluteX="19dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
