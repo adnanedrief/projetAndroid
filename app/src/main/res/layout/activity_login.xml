@@ -18,7 +18,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Page de Connexion"
+                android:text="IWIM PROMO 2023 APP"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 android:textColor="@color/teal_700"
